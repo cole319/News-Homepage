@@ -39,13 +39,56 @@
           <a href="#"><li>Trending</li></a>
           <a href="#"><li>Categories</li></a>
         </ul>
+        <div class="nav__list__dropdown-mobile">
+          <div class="nav__list__icon-mobile">
+            <img
+              src="/assets/images/icon-menu.svg"
+              alt="icon menu hamburger"
+              class="nav__hamburger"
+            />
+            <img
+              src="/assets/images/icon-menu-close.svg"
+              alt="icon menu close"
+              class="nav__close"
+            />
+          </div>
+
+          <ul class="nav__list__mobile">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>New</li></a>
+            <a href="#"><li>Popular</li></a>
+            <a href="#"><li>Trending</li></a>
+            <a href="#"><li>Categories</li></a>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <main class="container">
       <div class="web3-banner__section">
-        <img src="/assets/images/image-web-3-desktop.jpg" alt="web3 image" />
+        <img
+          src="/assets/images/image-web-3-desktop.jpg"
+          alt="web3 image desktop"
+          class="web3-banner__desktop"
+        />
+        <img
+          src="/assets/images/image-web-3-mobile.jpg"
+          alt="web3 image mobile"
+          class="web3-banner__mobile"
+        />
       </div>
+
+      <div class="web3-header__section">
+        <h1 class="web3-header">The Bright Future of Web 3.0?</h1>
+      </div>
+      <section class="web3-description__section">
+        <p class="web3-description__text">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <button class="web3-description__button">READ MORE</button>
+      </section>
       <section class="new__section">
         <h1 class="new__section__heading">New</h1>
         <ul class="new__section__list">
@@ -68,17 +111,6 @@
             </p>
           </li>
         </ul>
-      </section>
-      <div class="web3-header__section">
-        <h1 class="web3-header">The Bright Future of Web 3.0?</h1>
-      </div>
-      <section class="web3-description__section">
-        <p class="web3-description__text">
-          We dive into the next evolution of the web that claims to put the
-          power of the platforms back into the hands of the people. But is it
-          really fulfilling its promise?
-        </p>
-        <button class="web3-description__button">READ MORE</button>
       </section>
       <section class="article__list">
         <article>
@@ -133,5 +165,9 @@
       >. Coded by
       <a href="https://www.github.com/cole319" target="_blank">Suryarghya</a>.
     </footer>
+
+    <!-- script -->
+
+    <script src="script.js"></script>
   </body>
 </html>
