@@ -29,7 +29,6 @@ navClose.addEventListener("click", (event) => {
 });
 
 body.addEventListener("click", (event) => {
-  event.preventDefault();
   const isDropdownVisible = getComputedStyle(navListMobile).display !== "none";
 
   if (isDropdownVisible && !navListMobile.contains(event.target)) {
